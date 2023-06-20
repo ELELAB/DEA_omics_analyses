@@ -1,5 +1,5 @@
 ## Introduction 
-This project is to investigate the effect of omics data types on differential gene expression of breast cancer samples compared with normal samples. This folder is generated with the purpose to integrate the multi-omics data types, and create the input data sets ready for the following modeling process.
+This folder is to investigate the effect of omics data types on differential gene expression of breast cancer samples compared with normal samples. This folder is generated with the purpose to integrate the multi-omics data types, and create the input data sets ready for the following modeling process.
 
 ## Requirements
 The user needs to activiate an environment containing R packages and Python modules that need to be used. The environment is activated using:
@@ -7,12 +7,12 @@ The user needs to activiate an environment containing R packages and Python modu
 
 ## Structure
 **scripts:**
-Include all the scripts needed to produce the integrated omics data\
+Include all the scripts needed to produce the integrated omics data.\
 
-**data:**
-Include the data needed for preprocessing and building the individual gene-level omics data\
+**data:** (not contained here due to the data size)
+Include the data needed for preprocessing and building the individual gene-level omics data.\
 
-**results:**
+**results:** (not contained here due to the data size)
 * `omics_all_samples.csv`: the input data with all the common samples. The genes include NonDEGs, up-regulated and down-regulated DEGs.
 * `Single_omics_files`: the per-sample-based data within each subtype folder\s
 

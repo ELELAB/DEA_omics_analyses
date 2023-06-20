@@ -1,5 +1,5 @@
 ## Introduction 
-This project is to investigate the effect of omics data types on differential gene expression of breast cancer samples compared with normal samples. This folder is generated with the purpose to Multilayer Perceptron (MLP) in deep learning to model the multi-omics data.
+This folder is generated with the purpose to apply Multilayer Perceptron (MLP) to model the multi-omics data, and implement biological investigations by using consensus partitioning and functional enrichment analysis.
 
 ## Requirements
 The user needs to activiate an environment containing R packages and Python modules that need to be used. The environment is activated using:
@@ -7,13 +7,17 @@ The user needs to activiate an environment containing R packages and Python modu
 
 ## Structure
 **scripts:**
-Include all the scripts/jupyter notebooks needed to model the multi-omics data\
+Include all the scripts/jupyter notebooks needed to model the multi-omics data.\
 
 **models:**
-Include the resulting selected models of MLP regarding in different usecases\
+Include the resulting selected models of MLP in terms of binary and multiclass classifications.\
 
 **figures:**
-Include important figures before and after data modeling
+Include important figures after modeling.\
+
+**results:**
+Include the truly predicted DEGs and Non-DEGs from MLP, gene clusters from cola, and the resulting tables after FEA on the clusters.
+
 
 ## Running the Scripts
 The user can first change the directory to `/data/user/shared_projects/moonlight_bc_paper/moonlight_QLattice/` and use a romote connection to the jupyter notebook from your local PC following the process in the [link](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook).
