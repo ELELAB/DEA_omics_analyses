@@ -7,13 +7,13 @@ Interpretation of gene expression in breast cancer through AI-guided analysis of
 Our project aims to use genomics and epigenomics data from The Cancer Genome Atlas (TCGA) to predict and understand gene dysregulation in breast cancer patients. Integrating multi-omics data is necessary to fully comprehend the complexity of cancer biology. We processed and integrated each omics layer into a gene-level dataset and used machine learning algorithms such as symbolic regression, LASSO regression, random forest, and multilayer perceptron (MLP) to identify important features and interactions contributing to the prediction. By combining multi-omics data and using various machine learning approaches, we aim to gain insights into the molecular mechanisms behind gene dysregulation and breast cancer progression, paving the way for development of potential therapeutic targets.
 
 ## Contents
-**Omics_integration:**
+**omics_integration:**
 Include folders related to implement the multi-omics integraion for generating the input data set. The data and resulting files are not included here due to the size.
 
-**SR_RF_LASSO:**
+**sr_rf_lasso:**
 Include folders related to machine learning modeling on the multi-omics data by using symbolic regression, random forest and LASSO.
 
-**MLP:**
+**mlp:**
 Include folders related to MLP modeling, consensus clustering and functional enrichment analysis.
 
 ## Requirements

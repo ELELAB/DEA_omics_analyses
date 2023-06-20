@@ -20,6 +20,6 @@ The user can first change the directory to `/data/user/shared_projects/moonlight
 
 * `auxiliary.py`: Manually-defined functions used for preprocessing the multi-omics data and modeling.
 
-* `aggregated_nonDE_QLattice.ipynb`: QLattice modeling for the aggregated input gene data that're classified into DEGs and NonDEGs.
+* `agg_nonDE_QLattice.ipynb`: QLattice modeling for the aggregated input gene data that're classified into DEGs and NonDEGs.
 
-* `aggregated_nonDE_benchmark.ipynb`: Bechmarking with the other ML algorithms on the aggregated dataset where genes are classified into NonDEGs(0) and DEGs(1).
+* `agg_nonDE_benchmark.ipynb`: Bechmarking with the other ML algorithms on the aggregated dataset where genes are classified into NonDEGs(0) and DEGs(1).

@@ -24,11 +24,9 @@ The user can first change the directory to `/data/user/shared_projects/moonlight
 
 * `functions.py`: Manually-defined functions used for preprocessing the multi-omics data and modeling.
 
-* `MLP_agg_biclass_NonDEG.ipynb`: MLP modeling for the aggregated input gene data that have binary classes, namely DEGs and NonDEGs.
+* `mlp_agg_biclass_NonDEG.ipynb`: MLP modeling for the aggregated input gene data that have binary classes, namely DEGs and NonDEGs.
 
-* `MLP_agg_biclass_onlyDEG.ipynb`: MLP modeling for the aggregated input DEG data that have binary classes, namely down-regulated DEGs(0) and up-regulated-DEGs(1).
-s
-* `MLP_agg_multiclass.ipynb`: MLP modeling for the aggregated input gene data that have 3 classes, namely NonDEGs, down-regulated DEGs and up-regulated-DEGs.
+* `mlp_agg_multiclass.ipynb`: MLP modeling for the aggregated input gene data that have 3 classes, namely NonDEGs, down-regulated DEGs and up-regulated-DEGs.
 
 * `cola_clustering.R`: Implementation of clustering on truly predicted DEGs from MLP binary classification by using cola.
 
