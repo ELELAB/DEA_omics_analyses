@@ -7,14 +7,14 @@ The user needs to activiate an environment containing R packages and Python modu
 
 ## Structure
 **scripts:**
-Include all the scripts needed to produce the integrated omics data.\
+Include all the scripts needed to produce the integrated omics data.
 
 **data:** (not contained here due to the data size)
-Include the data needed for preprocessing and building the individual gene-level omics data.\
+Include the data needed for preprocessing and building the individual gene-level omics data.
 
 **results:** (not contained here due to the data size)
 * `omics_all_samples.csv`: the input data with all the common samples. The genes include NonDEGs, up-regulated and down-regulated DEGs.
-* `Single_omics_files`: the per-sample-based data within each subtype folder\s
+* `Single_omics_files`: the per-sample-based data within each subtype folders
 
 ## Running the Scripts
 The user should be in the `/data/user/shared_projects/moonlight_bc_paper/moonlight_QLattice/Omics_integration/scripts` directory and run the scripts from there. 

@@ -7,10 +7,10 @@ The user needs to activiate an environment containing R packages and Python modu
 
 ## Structure
 **scripts:**
-Include all the scripts/jupyter notebooks needed to model the multi-omics data by using symbolic regression, random forest and LASSO.\
+Include all the scripts/jupyter notebooks needed to model the multi-omics data by using symbolic regression, random forest and LASSO.
 
 **models:**
-Include the resulting models of QLattice regarding binary classifications (DEG vs. Non-DEG).\
+Include the resulting models of QLattice regarding binary classifications (DEG vs. Non-DEG).
 
 **figures:**
 Include important figures after machine learning modeling.

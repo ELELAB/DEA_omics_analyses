@@ -7,13 +7,13 @@ The user needs to activiate an environment containing R packages and Python modu
 
 ## Structure
 **scripts:**
-Include all the scripts/jupyter notebooks needed to model the multi-omics data.\
+Include all the scripts/jupyter notebooks needed to model the multi-omics data.
 
 **models:**
-Include the resulting selected models of MLP in terms of binary and multiclass classifications.\
+Include the resulting selected models of MLP in terms of binary and multiclass classifications.
 
 **figures:**
-Include important figures after modeling.\
+Include important figures after modeling.
 
 **results:**
 Include the truly predicted DEGs and Non-DEGs from MLP, gene clusters from cola, and the resulting tables after FEA on the clusters.

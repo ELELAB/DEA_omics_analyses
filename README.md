@@ -8,10 +8,10 @@ Our project aims to use genomics and epigenomics data from The Cancer Genome Atl
 
 ## Contents
 **Omics_integration:**
-Include folders related to implement the multi-omics integraion for generating the input data set. The data and resulting files are not included here due to the size.\
+Include folders related to implement the multi-omics integraion for generating the input data set. The data and resulting files are not included here due to the size.
 
 **SR_RF_LASSO:**
-Include folders related to machine learning modeling on the multi-omics data by using symbolic regression, random forest and LASSO.\
+Include folders related to machine learning modeling on the multi-omics data by using symbolic regression, random forest and LASSO.
 
 **MLP:**
 Include folders related to MLP modeling, consensus clustering and functional enrichment analysis.
